@@ -2,9 +2,11 @@
   "name": "Pravin Zende - SEO Tools & Blogging Guide",
   "short_name": "PZ SEO",
   "description": "Free SEO tools, blogging guides, and online earning tips by Pravin Zende to improve rankings and traffic.",
+  "id": "/?source=pwa",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#22c55e",
@@ -13,17 +15,43 @@
       "src": "https://www.pravinzende.co.in/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
       "src": "https://www.pravinzende.co.in/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ],
-  "categories": ["blog", "education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "SEO Tools",
+      "short_name": "Tools",
+      "description": "Access free SEO tools",
+      "url": "/p/seo-tools.html",
+      "icons": [{ "src": "https://www.pravinzende.co.in/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Latest Blog",
+      "short_name": "Blog",
+      "description": "Read latest blogging tips",
+      "url": "/search/label/Blogging",
+      "icons": [{ "src": "https://www.pravinzende.co.in/favicon.ico", "sizes": "192x192" }]
+    }
+  ],
+  "categories": [
+    "blog", "education", "productivity", "business", "developer", "utilities", 
+    "news", "magazines", "finance", "books", "reference", "social", "lifestyle", 
+    "marketing", "seo", "web design", "advertising", "online earning", "technology", 
+    "software", "internet", "information", "tutorial", "guide", "tools", "free", 
+    "professional", "career", "personalization", "creative", "writing", "publishing", 
+    "affiliate marketing", "digital marketing", "search engine", "ranking", 
+    "traffic", "monetization", "adsense", "wordpress", "blogger", "coding", 
+    "programming", "development", "efficiency", "management", "strategy", 
+    "learning", "e-learning", "skills", "growth"
+  ],
   "lang": "en",
   "dir": "ltr",
-  "id": "/?source=pwa"
+  "prefer_related_applications": false
 }
